@@ -17,6 +17,7 @@ class myRest extends events.EventEmitter{
             {"desc":desc, "tableID":forTable}
         );
         this.emit('printOrders');   //printAll();
+        //
     }
     //remove order (by kitchen staff)
     orderFinish(forTable){
